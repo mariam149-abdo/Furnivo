@@ -258,18 +258,23 @@ header nav .navbar ul li a:hover{
 #shop .cards .card:hover .details{
     bottom:0;
 }
+#shop .cards .card:hover .details h2{
+    color:gold;
+    font-size:25px;
+    font-weight:500;
+}
 #shop .cards .chairs .card .details h3,
 #shop .cards .Sofa .card .details h3,
 #shop .cards .tables .card .details h3{
-    color:var(--bg-color);
+    color:var(--text-color);
     font-size:18px;
-    font-weight:500;
+    font-weight:700;
     text-align:center;
 }
 #shop .cards .chairs .card .details span,
 #shop .cards .Sofa .card .details span,
 #shop .cards .tables .card .details span{
-    color:var(--text-color);
+    color:var(--bg-color);
     font-size:20px;
     font-weight:800;
     text-align:center;
@@ -473,6 +478,9 @@ header nav .navbar ul li a:hover{
 }
 }
 @media (max-width:600px){
+    header{
+    padding: 5px 15px;
+    }
     header nav .navbar ul{
         display:none;
     }
@@ -533,6 +541,6 @@ header nav .navbar ul li a:hover{
     padding-top:30px;
     }
     #footer{
-       padding:0;
+       padding:5px 15px 0;
     }
 }
