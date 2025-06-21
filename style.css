@@ -430,13 +430,21 @@ header nav .navbar ul li a:hover{
     flex-direction:column;
     width:100%;
     border:2px solid var(--primary-color);
-    box-shadow:0 0 10px 10px var(--primary-color);
+    box-shadow:0 0 5px 5px var(--primary-color);
     margin-top:20px;
     border-radius: 10px;
+    background-color: var(--bg-color);
+    font-size:18px;
+    font-weight:700;
+}
+#contact .form form input{
+    text-align: center;
+    padding: 5px 0;
 }
 #contact textarea{
     resize: none;
     padding-top:10px;
+    text-align: center;
 }
 #contact .form form .btn-submit{
     color:var(--bg-color);
